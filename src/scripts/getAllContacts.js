@@ -5,5 +5,7 @@ export const getAllContacts = async () => {
     return readContacts(PATH_DB);
 };
 
+console.log(await getAllContacts());
+
 export default getAllContacts;
 
